@@ -1,0 +1,299 @@
+/* ======================
+   Global Styles
+====================== */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif; /* Times New Roman */
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+/* Buttons */
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #b479fd; /* purple */
+  color: #fff;
+}
+
+button:hover {
+  background: #d299ff;
+  transform: scale(1.05);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #bb86fc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ======================
+   Auth Container
+====================== */
+.auth-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+/* ----------------------
+   Left Column
+------------------------ */
+.left-column {
+  flex: 1;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Main Heading / Portal Name */
+.left-column .logo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5rem; /* bigger main heading */
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  color: #bb86fc; /* purple */
+  text-shadow: none;
+  animation: none;
+}
+
+/* Subtitle under heading */
+.left-column h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
+  margin-top: 10px; /* slightly higher */
+  margin-bottom: 0px;
+  color: #bb86fc; /* purple */
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-shadow: none;
+  position: relative; /* needed for ::after */
+}
+
+/* ----------------------
+   Animated line effect
+------------------------ */
+.left-column h1::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  width: 60px;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #bb86fc, #d299ff);
+  transform: translateX(-50%);
+  animation: centerSlide 2s infinite;
+}
+
+@keyframes centerSlide {
+  0% { transform: translateX(-50%) scaleX(0); }
+  25% { transform: translateX(-50%) scaleX(1); }
+  50% { transform: translateX(-100%) scaleX(1); }
+  75% { transform: translateX(50%) scaleX(1); }
+  100% { transform: translateX(-50%) scaleX(0); }
+}
+
+/* Additional description */
+.left-column p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-bottom: 15x;
+  max-width: 300px;
+  line-height: 1.5;
+}
+
+/* ----------------------
+   Right Column
+------------------------ */
+.right-column {
+  flex: 1;
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Container with subtle bottom shadow */
+.form-container {
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #2a2a2a;
+
+  /* subtle bottom shadow for “keela nilal maari” */
+  box-shadow: 0 10px 15px rgba(0,0,0,0.35);
+
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 20px rgba(0,0,0,0.4);
+}
+
+.form-container h2 {
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: #bb86fc; /* purple */
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Inputs */
+.form-container input, 
+.form-container textarea, 
+.form-container select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #555;
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  font-size: 1rem;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+.form-container input:focus, 
+.form-container textarea:focus, 
+.form-container select:focus {
+  outline: 2px solid #bb86fc;
+}
+
+/* Buttons */
+.form-container button {
+  width: 100%;
+  height: 50px;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+/* Paragraphs / Messages */
+.form-container p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.form-container .login-message,
+.form-container .signup-message {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.form-container .login-message.success,
+.form-container .signup-message.success {
+  color: #03dac6;
+}
+
+.form-container .login-message.error,
+.form-container .signup-message.error {
+  color: #ff5252;
+}
+.password-wrapper {
+  position: relative; /* allows positioning icon inside the input */
+}
+
+.password-wrapper input {
+  padding-right: 40px; /* space on the right for eye icon */
+}
+
+.eye-icon {
+  position: absolute; /* position relative to the wrapper */
+  right: 10px;         /* distance from right edge */
+  top: 50%;            /* vertical center */
+  transform: translateY(-50%); /* adjust vertical center */
+  cursor: pointer;     /* make it clickable */
+  color: purple;       /* eye icon color */
+  font-size: 20px;     /* size of icon */
+}
+
+/* ======================
+   Responsive Design
+====================== */
+@media (max-width: 900px) {
+  .auth-container { flex-direction: column; }
+  .left-column, .right-column { flex: none; width: 100%; height: 50vh; }
+
+}
+/* Uniform input/select boxes */
+.submit-box {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #bb86fc;
+  background-color: #2a2a2a;
+  color: #f5f5f5;
+  font-size: 1rem;
+  height: 50px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.submit-textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #bb86fc;
+  background-color: #2a2a2a;
+  color: #f5f5f5;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  height: 120px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.submit-file {
+  border: 2px dashed #bb86fc;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  color: #ccc;
+  margin-bottom: 20px;
+  height: 50px;
+}
+
+.submit-file input {
+  margin-top: 5px;
+}
+
+.submit-button {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #bb86fc;
+  color: #2a2a2a;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+.submit-button:hover {
+  background-color: #d299ff;
+  transform: scale(1.03);
+}
+
