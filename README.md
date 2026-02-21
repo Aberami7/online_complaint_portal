@@ -1,4 +1,4 @@
-                                    Online Complaint and Grievance Portal
+                                            Online Complaint and Grievance Portal
 
 A full-stack web application designed to digitize and streamline institutional grievance handling with improved transparency, accountability, and analytics-driven insights.
 
@@ -177,41 +177,52 @@ Resolution & Reporting
 ### 👤 User Mode
 
                                               Home Page
-<img src="https://github.com/user-attachments/assets/cf1dcdbc-d13e-4b80-a87d-e5c6ef632283" width="800" />
+<img width="1905" height="893" alt="Screenshot 2026-02-21 172433" src="https://github.com/user-attachments/assets/87319f85-7ba1-49d9-aa50-f94ce67e9327" />
+
 
                                               User Login
-<img src="https://github.com/user-attachments/assets/c89820bb-feaf-4b84-a0f3-07c8b985cd9a" width="800" />
+<img width="1900" height="893" alt="Screenshot 2026-02-21 172451" src="https://github.com/user-attachments/assets/ef90ebf7-81c5-429d-bb7e-d73e5abb4010" />
+
 
                                               User Dashboard
-<img src="https://github.com/user-attachments/assets/cebf095c-5ed2-48af-a0fc-66fc4a9089d1" width="800" />
+<img width="1867" height="894" alt="Screenshot 2026-02-21 172507" src="https://github.com/user-attachments/assets/90b12578-5b00-42eb-a143-8498d754798f" />
+
 
                                               Submit Complaint
-<img src="https://github.com/user-attachments/assets/02fb7787-67b4-43db-80d0-f2dfaece3dd9" width="800" />
+<img width="1871" height="901" alt="Screenshot 2026-02-21 172540" src="https://github.com/user-attachments/assets/c456ec99-58ab-44c7-a7d5-dc8928749837" />
+
 
                                               User Complaint Page
-<img src="https://github.com/user-attachments/assets/3e0dbb54-bc78-4bb6-8401-cc89a224118e" width="800" />
+<img width="1870" height="908" alt="Screenshot 2026-02-21 172602" src="https://github.com/user-attachments/assets/4224b4b8-b666-49c3-989a-d6da2eeb9bc5" />
+
 
                                                Status Tracking Page
-<img src="https://github.com/user-attachments/assets/53084d47-22e7-499d-bbd3-9b3d9e11dcf6" width="800" />
+<img width="1877" height="889" alt="Screenshot 2026-02-21 174123" src="https://github.com/user-attachments/assets/c4f42c75-1b7a-42e3-84c8-3fb0c3fd11a4" />
+
 
 ---
 
 ### 🛠 Admin Mode
 
                                               Admin Login
-<img src="https://github.com/user-attachments/assets/e3aae8e0-6919-4046-a2a9-b1bf752c5130" width="800" />
+<img width="1892" height="895" alt="Screenshot 2026-02-21 172630" src="https://github.com/user-attachments/assets/1e497696-d409-4a74-993b-45b375e18118" />
+
 
                                               Admin Dashborad
-<img src="https://github.com/user-attachments/assets/851d4bcb-1d1b-4921-8bfe-23d0ec2df3de" width="800" />
+<img width="1878" height="875" alt="Screenshot 2026-02-21 172650" src="https://github.com/user-attachments/assets/46dd55e2-a08c-4edb-b17f-0d8bc5f54d08" />
+
 
                                               Complaint Page
-<img src="https://github.com/user-attachments/assets/cfe8550a-bb40-43b1-aae8-4b3e6ac8f3e4" width="800" />
+<img width="1870" height="899" alt="Screenshot 2026-02-21 172716" src="https://github.com/user-attachments/assets/3eaee20b-cf21-4151-80ae-3326cf6bd8b9" />
+
 
                                               Escalation Page
-<img src="https://github.com/user-attachments/assets/33b6d171-684c-48f6-99ab-7d3f63fdbd10" width="800" />
+<img width="1892" height="899" alt="Screenshot 2026-02-21 172801" src="https://github.com/user-attachments/assets/a3d538e6-c9ee-469a-8eba-225cf475f147" />
+
 
                                               Report and Export Page
-<img src="https://github.com/user-attachments/assets/0c1f9623-9fcf-4a84-ab59-bb448034dd7a" width="800" />
+<img width="1881" height="906" alt="Screenshot 2026-02-21 172817" src="https://github.com/user-attachments/assets/e875d1ba-e598-4d67-927c-a94e8c1e4437" />
+
 
 
 
