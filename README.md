@@ -1,4 +1,4 @@
-                                                                                   Online Complaint and Grievance Portal
+                                                              Online Complaint and Grievance Portal
 
 A full-stack web application designed to digitize and streamline institutional grievance handling with improved transparency, accountability, and analytics-driven insights.
 
@@ -170,27 +170,28 @@ SLA Check & Escalation (if required)
 Resolution & Reporting  
 
 
+## 📸 Screenshots
 
-                                                                                        ** USER MODE **
-                                                                                        
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172433" src="https://github.com/user-attachments/assets/cf1dcdbc-d13e-4b80-a87d-e5c6ef632283" />
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172451" src="https://github.com/user-attachments/assets/c89820bb-feaf-4b84-a0f3-07c8b985cd9a" />
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172507" src="https://github.com/user-attachments/assets/cebf095c-5ed2-48af-a0fc-66fc4a9089d1" />
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172540" src="https://github.com/user-attachments/assets/02fb7787-67b4-43db-80d0-f2dfaece3dd9" />
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172602" src="https://github.com/user-attachments/assets/3e0dbb54-bc78-4bb6-8401-cc89a224118e" />
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 174123" src="https://github.com/user-attachments/assets/53084d47-22e7-499d-bbd3-9b3d9e11dcf6" />
+---
 
-      
-                                                                                        **ADMIN MODE **
-                                                                                        
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172630" src="https://github.com/user-attachments/assets/e3aae8e0-6919-4046-a2a9-b1bf752c5130" />
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172650" src="https://github.com/user-attachments/assets/851d4bcb-1d1b-4921-8bfe-23d0ec2df3de" />
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172753" src="https://github.com/user-attachments/assets/cfe8550a-bb40-43b1-aae8-4b3e6ac8f3e4" />
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172801" src="https://github.com/user-attachments/assets/33b6d171-684c-48f6-99ab-7d3f63fdbd10" />
-      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172817" src="https://github.com/user-attachments/assets/0c1f9623-9fcf-4a84-ab59-bb448034dd7a" />
+### 👤 User Mode
 
+<img src="https://github.com/user-attachments/assets/cf1dcdbc-d13e-4b80-a87d-e5c6ef632283" width="800" />
+<img src="https://github.com/user-attachments/assets/c89820bb-feaf-4b84-a0f3-07c8b985cd9a" width="800" />
+<img src="https://github.com/user-attachments/assets/cebf095c-5ed2-48af-a0fc-66fc4a9089d1" width="800" />
+<img src="https://github.com/user-attachments/assets/02fb7787-67b4-43db-80d0-f2dfaece3dd9" width="800" />
+<img src="https://github.com/user-attachments/assets/3e0dbb54-bc78-4bb6-8401-cc89a224118e" width="800" />
+<img src="https://github.com/user-attachments/assets/53084d47-22e7-499d-bbd3-9b3d9e11dcf6" width="800" />
 
+---
 
+### 🛠 Admin Mode
+
+<img src="https://github.com/user-attachments/assets/e3aae8e0-6919-4046-a2a9-b1bf752c5130" width="800" />
+<img src="https://github.com/user-attachments/assets/851d4bcb-1d1b-4921-8bfe-23d0ec2df3de" width="800" />
+<img src="https://github.com/user-attachments/assets/cfe8550a-bb40-43b1-aae8-4b3e6ac8f3e4" width="800" />
+<img src="https://github.com/user-attachments/assets/33b6d171-684c-48f6-99ab-7d3f63fdbd10" width="800" />
+<img src="https://github.com/user-attachments/assets/0c1f9623-9fcf-4a84-ab59-bb448034dd7a" width="800" />
 
 
 
