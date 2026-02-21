@@ -1,70 +1,213 @@
-# Getting Started with Create React App
+                                                                                   Online Complaint and Grievance Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack web application designed to digitize and streamline institutional grievance handling with improved transparency, accountability, and analytics-driven insights.
 
-## Available Scripts
+📌 Project Overview 📌
 
-In the project directory, you can run:
+The Online Complaint and Grievance Portal is a centralized platform that enables users to submit, track, and manage complaints efficiently.
 
-### `npm start`
+The system provides:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Transparent complaint tracking
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-Automated escalation for unresolved issues
 
-### `npm test`
+-Structured administrative workflow management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-Reporting and analytics for data-driven decision-making
 
-### `npm run build`
+🚀 Key Features 🚀
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👤 User Features 👤
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-Anonymous and verified complaint submission
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-Secure file upload (images/documents)
 
-### `npm run eject`
+-Unique tracking ID for anonymous users
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-Real-time complaint status timeline
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Personal complaint history dashboard
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🛠 Admin Features 🛠
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-Role-based secure authentication
 
-## Learn More
+-Centralized complaint management dashboard
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Assign complaints to relevant departments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Add public comments and update complaint status
 
-### Code Splitting
+-SLA-based automated escalation system
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-Reports and CSV export functionality
 
-### Analyzing the Bundle Size
+🏗 Architecture 🏗 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project follows a 3-Tier Architecture:
 
-### Making a Progressive Web App
+Presentation Layer (Frontend) – React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Application Layer (Backend) – Node.js & Express.js
 
-### Advanced Configuration
+Data Layer (Database) – MySQL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🛠 Tech Stack🛠
 
-### Deployment
+Frontend-React,HTML5,CSS3,JavaScript 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Backend-Node.js,Express.js,RESTful APIs
 
-### `npm run build` fails to minify
+Database-MySQL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📊 Core Modules📊
+
+-Authentication System
+
+-Complaint Submission Module
+
+-Status Tracking & Timeline
+
+-Admin Workflow Management
+
+-Escalation Logic (SLA Monitoring)
+
+-Reporting & Analytics Dashboard
+
+** System Workflow **
+
+1️⃣ Complaint Submission
+
+User selects submission type (Anonymous / Verified Login)
+         ---->
+Fills complaint form (Category, Urgency, Description)
+         ---->
+Uploads supporting documents (optional)
+         ---->
+System validates input
+         ---->
+Complaint is stored in the database
+         ---->
+Unique Tracking ID is generated (for anonymous users)
+         ---->
+Initial status set to “Submitted”
+
+2️⃣ Complaint Processing
+
+Complaint appears in the Admin Dashboard
+            ---->
+Admin reviews complaint details
+            ---->
+Admin assigns complaint to relevant department
+            ---->
+Status updated to “Under Review”
+            ---->
+Public comments can be added for user visibility
+            ---->
+All updates are recorded in the StatusLogs table
+
+3️⃣ Status Tracking
+
+-User logs in (or enters tracking ID)
+             
+-System fetches complaint data via REST API
+
+-Real-time status timeline is displayed
+
+
+** User can view:
+
+-Current status
+
+-Previous updates
+
+-Admin comments
+
+-Resolution details
+
+4️⃣ SLA Monitoring & Escalation
+
+-A scheduled server job (node-cron) runs periodically
+
+-System checks complaints exceeding SLA (e.g., 7 days)
+
+If SLA breached:
+
+-Complaint is automatically flagged
+
+-Status updated to “Escalated”
+
+-Assigned to higher authority
+
+-Escalation entry stored in Escalations table
+
+5️⃣ Resolution & Closure
+
+-Admin marks complaint as “Resolved”
+
+-Resolution comments added
+
+-User notified through dashboard
+
+-Complaint lifecycle completed
+
+-Data retained for reporting & analytics
+
+🔁 End-to-End Flow Summary
+
+User Submission
+➡️
+Database Storage
+➡️
+Admin Review & Assignment
+➡️
+Status Updates & Tracking
+➡️
+SLA Check & Escalation (if required)
+➡️
+Resolution & Reporting  
+
+
+
+                                                                                        ** USER MODE **
+                                                                                        
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172433" src="https://github.com/user-attachments/assets/cf1dcdbc-d13e-4b80-a87d-e5c6ef632283" />
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172451" src="https://github.com/user-attachments/assets/c89820bb-feaf-4b84-a0f3-07c8b985cd9a" />
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172507" src="https://github.com/user-attachments/assets/cebf095c-5ed2-48af-a0fc-66fc4a9089d1" />
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172540" src="https://github.com/user-attachments/assets/02fb7787-67b4-43db-80d0-f2dfaece3dd9" />
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172602" src="https://github.com/user-attachments/assets/3e0dbb54-bc78-4bb6-8401-cc89a224118e" />
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 174123" src="https://github.com/user-attachments/assets/53084d47-22e7-499d-bbd3-9b3d9e11dcf6" />
+
+      
+                                                                                        **ADMIN MODE **
+                                                                                        
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172630" src="https://github.com/user-attachments/assets/e3aae8e0-6919-4046-a2a9-b1bf752c5130" />
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172650" src="https://github.com/user-attachments/assets/851d4bcb-1d1b-4921-8bfe-23d0ec2df3de" />
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172753" src="https://github.com/user-attachments/assets/cfe8550a-bb40-43b1-aae8-4b3e6ac8f3e4" />
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172801" src="https://github.com/user-attachments/assets/33b6d171-684c-48f6-99ab-7d3f63fdbd10" />
+      <img width="1920" height="1020" alt="Screenshot 2026-02-21 172817" src="https://github.com/user-attachments/assets/0c1f9623-9fcf-4a84-ab59-bb448034dd7a" />
+
+
+
+
+
+
+                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
