@@ -1,4 +1,4 @@
-                                            Online Complaint and Grievance Portal
+                                           Smart Grievance and Feedback Management System
 
 A full-stack web application designed to digitize and streamline institutional grievance handling with improved transparency, accountability, and analytics-driven insights.
 
