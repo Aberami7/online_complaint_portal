@@ -4,6 +4,11 @@
 
 ### Transparent • Secure • Automated • Analytics Driven
 
+![React](https://img.shields.io/badge/React.js-61DAFB?style=for-the-badge&logo=react&logoColor=20232A)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
 <img src="https://img.icons8.com/?size=100&id=kCnN5ALrk9Q0&format=png&color=000000" width="90"/>
 
 A full-stack web application designed to digitize and streamline institutional grievance handling with improved transparency, accountability, and analytics-driven insights.
@@ -13,6 +18,12 @@ A full-stack web application designed to digitize and streamline institutional g
 ---
 
 ## 📌 Project Overview
+
+<div align="center">
+
+![Overview](https://img.shields.io/badge/PROJECT-OVERVIEW-6C63FF?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
 
 The Smart Grievance and Feedback Management System is a centralized platform that enables users to submit, track, and manage complaints efficiently.
 
@@ -30,6 +41,12 @@ The Smart Grievance and Feedback Management System is a centralized platform tha
 ---
 
 ## 🚀 Key Features
+
+<div align="center">
+
+![Features](https://img.shields.io/badge/KEY-FEATURES-FF6B35?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
 
 ### 👤 User Features
 - Anonymous and verified complaint submission
@@ -50,6 +67,12 @@ The Smart Grievance and Feedback Management System is a centralized platform tha
 
 ## 🏗️ System Architecture
 
+<div align="center">
+
+![Architecture](https://img.shields.io/badge/SYSTEM-ARCHITECTURE-00B894?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
+
 This project follows a **3-Tier Architecture** for scalable and maintainable application development.
 
 <div align="center">
@@ -68,6 +91,12 @@ This project follows a **3-Tier Architecture** for scalable and maintainable app
 
 <div align="center">
 
+![Tech Stack](https://img.shields.io/badge/TECHNOLOGY-STACK-0984E3?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
+
+<div align="center">
+
 | Layer | Technology |
 |---|---|
 | Frontend | React.js, HTML5, CSS3, JavaScript |
@@ -80,6 +109,12 @@ This project follows a **3-Tier Architecture** for scalable and maintainable app
 ---
 
 ## 📊 Core Modules
+
+<div align="center">
+
+![Core Modules](https://img.shields.io/badge/CORE-MODULES-FDCB6E?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
 
 <div align="center">
 
@@ -97,6 +132,12 @@ This project follows a **3-Tier Architecture** for scalable and maintainable app
 ---
 
 ## 🔄 End-to-End System Workflow
+
+<div align="center">
+
+![Workflow](https://img.shields.io/badge/END_TO_END-WORKFLOW-D63031?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
 
 <div align="center">
 
@@ -206,6 +247,12 @@ User can view:
 
 ## 🔁 Flow Summary
 
+<div align="center">
+
+![Flow Summary](https://img.shields.io/badge/FLOW-SUMMARY-74B9FF?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
+
 ```
 👤 User Submission
         ⬇
@@ -223,6 +270,12 @@ User can view:
 ---
 
 ## 📸 Application Showcase
+
+<div align="center">
+
+![Showcase](https://img.shields.io/badge/APPLICATION-SHOWCASE-E84393?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
 
 Explore the complete user and admin journey of the Smart Grievance and Feedback Management System.
 
@@ -261,6 +314,12 @@ Explore the complete user and admin journey of the Smart Grievance and Feedback 
 
 <div align="center">
 
+![Highlights](https://img.shields.io/badge/PROJECT-HIGHLIGHTS-FDCB6E?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
+
+<div align="center">
+
 | | |
 |---|---|
 | 🔒 **Privacy Protection** | Protects user complaint data with secure access control and authentication. |
@@ -275,6 +334,12 @@ Explore the complete user and admin journey of the Smart Grievance and Feedback 
 ---
 
 ## 🚀 Future Enhancements
+
+<div align="center">
+
+![Future Enhancements](https://img.shields.io/badge/FUTURE-ENHANCEMENTS-6C5CE7?style=for-the-badge&labelColor=1a1a2e)
+
+</div>
 
 ### 🤖 Artificial Intelligence
 - AI-based complaint categorization
@@ -305,6 +370,8 @@ Explore the complete user and admin journey of the Smart Grievance and Feedback 
 <div align="center">
 
 ## 🏁 Project Journey Complete
+
+![Status](https://img.shields.io/badge/STATUS-COMPLETED-00B894?style=for-the-badge&labelColor=1a1a2e)
 
 <img src="https://img.icons8.com/?size=100&id=kCnN5ALrk9Q0&format=png&color=000000" width="70"/>
 
