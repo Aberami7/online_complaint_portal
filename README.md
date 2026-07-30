@@ -16,12 +16,16 @@ A full-stack web application designed to digitize and streamline institutional g
 
 The Smart Grievance and Feedback Management System is a centralized platform that enables users to submit, track, and manage complaints efficiently.
 
+<div align="center">
+
 | | |
 |---|---|
 | 🔍 **Transparent Tracking** | Users can monitor complaint progress with real-time updates. |
 | ⚡ **Automated Escalation** | Unresolved issues are escalated automatically based on SLA rules. |
 | 🏢 **Workflow Management** | Structured administrative workflow for efficient complaint handling. |
 | 📊 **Analytics Insights** | Reports and analytics support better decision making. |
+
+</div>
 
 ---
 
@@ -48,15 +52,21 @@ The Smart Grievance and Feedback Management System is a centralized platform tha
 
 This project follows a **3-Tier Architecture** for scalable and maintainable application development.
 
+<div align="center">
+
 | Layer | Description |
 |---|---|
 | 🎨 **Presentation Layer** | React.js Frontend — User interface & interaction |
 | ⚙️ **Application Layer** | Node.js + Express.js — RESTful API services |
 | 🗄️ **Data Layer** | MySQL — Secure data storage |
 
+</div>
+
 ---
 
 ## 🛠️ Technology Stack
+
+<div align="center">
 
 | Layer | Technology |
 |---|---|
@@ -65,9 +75,13 @@ This project follows a **3-Tier Architecture** for scalable and maintainable app
 | Database | MySQL |
 | Scheduler | Node Cron |
 
+</div>
+
 ---
 
 ## 📊 Core Modules
+
+<div align="center">
 
 | Module | Description |
 |---|---|
@@ -77,6 +91,8 @@ This project follows a **3-Tier Architecture** for scalable and maintainable app
 | 🛠 Admin Workflow | Department assignment and management |
 | ⏳ SLA Monitoring | Automatic escalation handling |
 | 📈 Analytics | Reports and data-driven insights |
+
+</div>
 
 ---
 
@@ -127,28 +143,38 @@ Explore the complete user and admin journey of the Smart Grievance and Feedback 
 
 ### 👤 User Mode
 
+<div align="center">
+
 | Screen | Preview |
 |---|---|
-| 🏠 Home Page | <img width="500" src="https://github.com/user-attachments/assets/87319f85-7ba1-49d9-aa50-f94ce67e9327"/> |
-| 🔐 User Login | <img width="500" src="https://github.com/user-attachments/assets/ef90ebf7-81c5-429d-bb7e-d73e5abb4010"/> |
-| 📊 User Dashboard | <img width="500" src="https://github.com/user-attachments/assets/90b12578-5b00-42eb-a143-8498d754798f"/> |
-| 📝 Submit Complaint | <img width="500" src="https://github.com/user-attachments/assets/c456ec99-58ab-44c7-a7d5-dc8928749837"/> |
-| 📄 User Complaint Page | <img width="500" src="https://github.com/user-attachments/assets/4224b4b8-b666-49c3-989a-d6da2eeb9bc5"/> |
-| 📍 Status Tracking Page | <img width="500" src="https://github.com/user-attachments/assets/c4f42c75-1b7a-42e3-84c8-3fb0c3fd11a4"/> |
+| 🏠 Home Page | <img width="900" src="https://github.com/user-attachments/assets/87319f85-7ba1-49d9-aa50-f94ce67e9327"/> |
+| 🔐 User Login | <img width="900" src="https://github.com/user-attachments/assets/ef90ebf7-81c5-429d-bb7e-d73e5abb4010"/> |
+| 📊 User Dashboard | <img width="900" src="https://github.com/user-attachments/assets/90b12578-5b00-42eb-a143-8498d754798f"/> |
+| 📝 Submit Complaint | <img width="900" src="https://github.com/user-attachments/assets/c456ec99-58ab-44c7-a7d5-dc8928749837"/> |
+| 📄 User Complaint Page | <img width="900" src="https://github.com/user-attachments/assets/4224b4b8-b666-49c3-989a-d6da2eeb9bc5"/> |
+| 📍 Status Tracking Page | <img width="900" src="https://github.com/user-attachments/assets/c4f42c75-1b7a-42e3-84c8-3fb0c3fd11a4"/> |
+
+</div>
 
 ### 🛠 Admin Mode
 
+<div align="center">
+
 | Screen | Preview |
 |---|---|
-| 🔐 Admin Login | <img width="500" src="https://github.com/user-attachments/assets/1e497696-d409-4a74-993b-45b375e18118"/> |
-| 📊 Admin Dashboard | <img width="500" src="https://github.com/user-attachments/assets/46dd55e2-a08c-4edb-b17f-0d8bc5f54d08"/> |
-| 📋 Complaint Management | <img width="500" src="https://github.com/user-attachments/assets/3eaee20b-cf21-4151-80ae-3326cf6bd8b9"/> |
-| 🚨 Escalation Management | <img width="500" src="https://github.com/user-attachments/assets/a3d538e6-c9ee-469a-8eba-225cf475f147"/> |
-| 📈 Reports & Export | <img width="500" src="https://github.com/user-attachments/assets/e875d1ba-e598-4d67-927c-a94e8c1e4437"/> |
+| 🔐 Admin Login | <img width="900" src="https://github.com/user-attachments/assets/1e497696-d409-4a74-993b-45b375e18118"/> |
+| 📊 Admin Dashboard | <img width="900" src="https://github.com/user-attachments/assets/46dd55e2-a08c-4edb-b17f-0d8bc5f54d08"/> |
+| 📋 Complaint Management | <img width="900" src="https://github.com/user-attachments/assets/3eaee20b-cf21-4151-80ae-3326cf6bd8b9"/> |
+| 🚨 Escalation Management | <img width="900" src="https://github.com/user-attachments/assets/a3d538e6-c9ee-469a-8eba-225cf475f147"/> |
+| 📈 Reports & Export | <img width="900" src="https://github.com/user-attachments/assets/e875d1ba-e598-4d67-927c-a94e8c1e4437"/> |
+
+</div>
 
 ---
 
 ## ⭐ Project Highlights
+
+<div align="center">
 
 | | |
 |---|---|
@@ -158,6 +184,8 @@ Explore the complete user and admin journey of the Smart Grievance and Feedback 
 | 📝 **Smart Complaint Handling** | Complete lifecycle management from submission to resolution. |
 | 🏢 **Department Management** | Efficient assignment and tracking across departments. |
 | 🚀 **Scalable Platform** | Designed with modern full-stack technologies. |
+
+</div>
 
 ---
 
