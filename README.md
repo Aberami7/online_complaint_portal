@@ -1,6 +1,6 @@
 <div align="center">
 
-![Icon](https://img.icons8.com/?size=100&id=Mpu9jzWfJVCW&format=png&color=000000)#  Smart Grievance and Feedback Management System
+   Smart Grievance and Feedback Management System
 
 ### Transparent • Secure • Automated • Analytics Driven
 
