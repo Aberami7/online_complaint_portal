@@ -4,7 +4,6 @@
 
 ### Transparent • Secure • Automated • Analytics Driven
 
-<img src="https://img.icons8.com/?size=100&id=kCnN5ALrk9Q0&format=png&color=000000" width="90"/>
 
 A full-stack web application designed to digitize and streamline institutional grievance handling with improved transparency, accountability, and analytics-driven insights.
 
@@ -220,8 +219,6 @@ Explore the complete user and admin journey of the Smart Grievance and Feedback 
 <div align="center">
 
 ## 🏁 Project Journey Complete
-
-<img src="https://img.icons8.com/?size=100&id=kCnN5ALrk9Q0&format=png&color=000000" width="70"/>
 
 ### Thank you for exploring the Smart Grievance and Feedback Management System.
 
