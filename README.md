@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📢 Smart Grievance and Feedback Management System
+#  Smart Grievance and Feedback Management System
 
 ### Transparent • Secure • Automated • Analytics Driven
 
