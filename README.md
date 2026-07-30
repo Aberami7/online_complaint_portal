@@ -98,24 +98,109 @@ This project follows a **3-Tier Architecture** for scalable and maintainable app
 
 ## 🔄 End-to-End System Workflow
 
+<div align="center">
+
+<table>
+
+<tr>
+<td align="center">
+
 ### 1️⃣ Complaint Submission
-User selects submission type → fills complaint details → uploads documents → complaint stored in database → tracking ID generated → status set as **Submitted**.
+
+👤 User selects submission type
+<br>⬇️<br>
+📝 Fills complaint details
+<br>⬇️<br>
+📎 Uploads documents
+<br>⬇️<br>
+💾 Complaint stored in database
+<br>⬇️<br>
+🆔 Tracking ID generated
+<br>⬇️<br>
+✅ Status set as **Submitted**
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
 
 ### 2️⃣ Complaint Processing
-Complaint appears in admin dashboard → admin reviews complaint → assigns department → status updated to **Under Review** → comments and updates recorded.
+
+📋 Complaint appears in Admin Dashboard
+<br>⬇️<br>
+👨‍💼 Admin reviews complaint
+<br>⬇️<br>
+🏢 Assigns department
+<br>⬇️<br>
+🔄 Status updated to **Under Review**
+<br>⬇️<br>
+💬 Comments and updates recorded
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
 
 ### 3️⃣ Status Tracking
-User logs in / enters tracking ID → system fetches complaint data via REST API → real-time timeline displayed, showing:
-- Current status
-- Previous updates
-- Admin comments
-- Resolution details
+
+👤 User logs in / enters tracking ID
+<br>⬇️<br>
+🔗 System fetches complaint data through REST API
+<br>⬇️<br>
+📍 Real-time timeline displayed
+
+User can view:
+<br>
+✅ Current Status
+<br>
+✅ Previous Updates
+<br>
+✅ Admin Comments
+<br>
+✅ Resolution Details
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
 
 ### 4️⃣ SLA Monitoring & Escalation
-Scheduled Node Cron job runs periodically → checks SLA-exceeded complaints → complaint marked as **Escalated** → assigned to higher authority → escalation record stored.
+
+⏱ Scheduled Node Cron job runs periodically
+<br>⬇️<br>
+🔍 Checks SLA exceeded complaints
+<br>⬇️<br>
+🚨 Complaint marked as **Escalated**
+<br>⬇️<br>
+👨‍💼 Assigned to higher authority
+<br>⬇️<br>
+💾 Escalation record stored
+
+</td>
+</tr>
+
+<tr>
+<td align="center">
 
 ### 5️⃣ Resolution & Closure
-Admin marks complaint as **Resolved** → resolution comments added → user notified → data retained for analytics.
+
+✅ Admin marks complaint as **Resolved**
+<br>⬇️<br>
+💬 Resolution comments added
+<br>⬇️<br>
+🔔 User notified
+<br>⬇️<br>
+📊 Data retained for analytics
+
+</td>
+</tr>
+
+</table>
+
+</div>
 
 ---
 
